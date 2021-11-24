@@ -1,6 +1,6 @@
 <?php
     ob_start();
-    include "files/db-function.php";
+    include "db-function/db-film.php";
     include "files/function.php";
     
     $tableFilms = afficherTable(findAllFilms(), ["Titre", "Date de sortie", "Durée", "Réalisateur", "Genre"]);

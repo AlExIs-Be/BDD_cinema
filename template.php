@@ -26,4 +26,5 @@
         </div>
     </div>
 </body>
+<div class ="admin"><a href="admin.php">_</a></div>
 </html>
